@@ -16,6 +16,7 @@ class Professor {
 -cognoms : String
 -formacio : String
 --mètodes--
+toString()
 }
 
 class Grup {
