@@ -1,0 +1,29 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Estudiant {
+--atributs--
+-dni : String
+-nom : String
+-cognoms : String
+-notaFinal : Double
+--mètodes--
+}
+
+class Professor {
+--atributs--
+-nom : String
+-cognoms : String
+-formacio : String
+--mètodes--
+}
+
+class Grup {
+--atributs--
+-nom : String
+-llistaEstudiants : List<estudiant>
+-tutor : Profesor
+--mètodes--
+}
+
+@enduml
