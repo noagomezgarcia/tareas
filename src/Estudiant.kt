@@ -1,13 +1,13 @@
-class Estudiant {
+class Estudiant(
+    private var dni: String,
+    private var nom: String,
+    private var cognoms: String,
+    private var notaFinal: Double
+) {
+    fun getNotaFinal() = notaFinal
+    fun setNotaFinal(nota: Double) { notaFinal = nota }
 
-    private var dni : String = ""
-    private var nom : String = ""
-    private var cognoms : String = ""
-    var notaFinal : Double = 0.0
-
-    constructor(nom : String, cognoms : String, formacio : String) {
-        this.nom = nom
-        this.cognoms = cognoms
-        this.notaFinal = notaFinal
+    override fun toString(): String {
+        return "DNI: $dni | Nom: $nom $cognoms | Nota: $notaFinal"
     }
 }
