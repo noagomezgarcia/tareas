@@ -1,3 +1,5 @@
+package TA46
+
 class Professor(
     private var nom: String,
     private var cognoms: String,

@@ -1,3 +1,5 @@
+package TA46
+
 class Grup(
     private var nom: String,
     private var tutor: Professor
@@ -23,7 +25,7 @@ class Grup(
     }
 
     override fun toString(): String {
-        var resultat = "Grup $nom amb tutor $tutor"
+        var resultat = "TA46.Grup $nom amb tutor $tutor"
         resultat += "Llista d'alumnes:"
         //Recorre cada element de la llista d'estudiants i concatena la seva representació en text a la
         //variable resultat precedida d'un guionet.

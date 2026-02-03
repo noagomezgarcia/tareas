@@ -1,3 +1,5 @@
+package TA46
+
 class Estudiant(
     private var dni: String,
     private var nom: String,

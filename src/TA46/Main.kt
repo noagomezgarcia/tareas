@@ -1,3 +1,5 @@
+package TA46
+
 fun main() {
 
     val grup = crearGrup()

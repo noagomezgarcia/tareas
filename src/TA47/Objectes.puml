@@ -1,0 +1,50 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+ObjecteGeometric <|-- Cercle
+ObjecteGeometric <|-- Rectangle
+ObjecteGeometric <|-- Triangle
+Rectangle <|-- Quadrat
+
+class ObjecteGeometric {
+--atributs--
+-x : Double
+-y : Double
+-color : String
+--metodes--
+}
+
+class Cercle {
+--atributs--
+-radi : Double
+--metodes--
+perimetre(radi) : Double
+area (radi) : Double
+}
+
+class Rectangle {
+--atributs--
+-base : Double
+-alcada : Double
+--metodes--
+perimetre(base, alcada) : Double
+area(base, alcada) : Double
+}
+
+class Triangle {
+--atributs--
+-base : Double
+-alcada : Double
+--metodes--
+perimetre(base, alcada) : Double
+area(base, alcada) : Double
+}
+
+class Quadrat {
+--atributs--
+--metodes--
+perimetre(base, alcada) : Double
+area(base, alcada) : Double
+}
+
+@enduml
