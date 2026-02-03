@@ -5,5 +5,5 @@ open class ObjecteGeometric {
     private var y : Double = 0.0
     private var color : String = ""
 
-    constructor(x: Double, y: Double, color: String) {}
+    constructor(x: Double, y: Double, color: String)
 }
