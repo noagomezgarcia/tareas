@@ -18,8 +18,8 @@ class Cercle {
 --atributs--
 -radi : Double
 --metodes--
-perimetre(radi) : Double
-area (radi) : Double
++perimetre(radi) : Double
++area (radi) : Double
 }
 
 class Rectangle {
@@ -27,8 +27,8 @@ class Rectangle {
 -base : Double
 -alcada : Double
 --metodes--
-perimetre(base, alcada) : Double
-area(base, alcada) : Double
++perimetre(base, alcada) : Double
++area(base, alcada) : Double
 }
 
 class Triangle {
@@ -36,15 +36,15 @@ class Triangle {
 -base : Double
 -alcada : Double
 --metodes--
-perimetre(base, alcada) : Double
-area(base, alcada) : Double
++perimetre(base, alcada) : Double
++area(base, alcada) : Double
 }
 
 class Quadrat {
 --atributs--
 --metodes--
-perimetre(base, alcada) : Double
-area(base, alcada) : Double
++perimetre(base, alcada) : Double
++area(base, alcada) : Double
 }
 
 @enduml
